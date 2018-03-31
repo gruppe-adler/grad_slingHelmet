@@ -6,6 +6,7 @@ class CfgFunctions
 		class commands
 		{
 			file = "\GRAD_slingHelmet\functions\commands";
+			class addHelmetToWhitelist {};
 			class addSlungHelmet {};
 			class canSlingHelmet {};
 			class getSlungHelmet {};
