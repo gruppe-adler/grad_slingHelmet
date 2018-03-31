@@ -4,7 +4,7 @@
  *
  * Arguments:
  * 0: Unit <OBJECT>
- * 1: Helmet Class <STING>
+ * 1: Helmet Class <STRING>
  *
  * Return Value:
  * Nothing

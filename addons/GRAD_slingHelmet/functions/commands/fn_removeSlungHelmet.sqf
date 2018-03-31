@@ -9,7 +9,7 @@
  * Nothing
  *
  * Example:
- * [player, "H_HelmetB_desert"] call GRAD_slingHelmet_fnc_addSlungHelmet;
+ * [player] call GRAD_slingHelmet_fnc_removeSlungHelmet;
  *
  * Public: No
  */

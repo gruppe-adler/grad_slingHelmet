@@ -9,7 +9,7 @@
  * Nothing
  *
  * Example:
- * _this call GRAD_slingHelmet_fnc_HandleDisconnect;
+ * _this call GRAD_slingHelmet_fnc_EHKilled;
  *
  * Public: No
  */
@@ -20,5 +20,5 @@ private _helmet = [_unit] call GRAD_slingHelmet_fnc_getSlungHelmet;
 private _holder = createVehicle ["WeaponHolderSimulated", (getPos _unit), [], 0, "CAN_COLLIDE"];
 _holder addItemCargo [_helmet, 1];
 
-//remove the backpack from the dead unit
+//remove the helmet from the dead unit
 [_unit] call GRAD_slingHelmet_fnc_removeSlungHelmet;

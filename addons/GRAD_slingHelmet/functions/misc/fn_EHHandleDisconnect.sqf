@@ -10,7 +10,7 @@
  * Nothing
  *
  * Example:
- * _this call GRAD_slingHelmet_fnc_HandleDisconnect;
+ * _this call GRAD_slingHelmet_fnc_EHHandleDisconnect;
  *
  * Public: Yes
  */
