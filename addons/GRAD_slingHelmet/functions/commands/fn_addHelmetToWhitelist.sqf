@@ -29,9 +29,7 @@ if (! isServer) exitWith {
 };
 
 //init variable if isn't yet
-if (isNil "GRAD_slingHelmet_whitelist") then {
-    GRAD_slingHelmet_whitelist = [];
-};
+[] call GRAD_slingHelmet_fnc_whitelist;
 
 //add classnames
 {

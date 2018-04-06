@@ -1,4 +1,4 @@
-_allowedHeadgear = [
+private _allowedHeadgear = [
     // Vanilla + Apex + Laws Of War
     "H_HelmetSpecO_blk",
     "H_HelmetSpecO_ocamo",
@@ -390,7 +390,7 @@ _allowedHeadgear = [
     "rhsusf_protech_helmet_ess",
     "rhsusf_protech_helmet_rhino",
     "rhsusf_protech_helmet_rhino_ess",
-    
+
     //3CB
 	"UK3CB_BAF_H_CrewHelmet_DDPM_A",
 	"UK3CB_BAF_H_CrewHelmet_DDPM_ESS_A",

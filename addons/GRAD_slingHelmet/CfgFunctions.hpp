@@ -22,6 +22,7 @@ class CfgFunctions
 			class EHHandleDisconnect {};
 			class EHKilled {};
 			class weaponHolder {};
+			class whitelist {};
 		};
 	};
 };

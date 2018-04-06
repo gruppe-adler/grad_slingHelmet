@@ -14,8 +14,6 @@
  * Public: No
  */
 
-#include "..\..\allowedHeadgear.hpp"
-
 params ["_unit"];
 
 //unit has to have headgear
@@ -24,9 +22,10 @@ if (headgear _unit isEqualTo '') exitWith {false;};
 //unit must not have a slung helmet already
 if !([_unit] call GRAD_slingHelmet_fnc_getSlungHelmet isEqualTo '') exitWith {false;};
 
+//check ii uni's helmet is allowed by mod creator
+if !(isNull (configFile >> "CfgWeapons" >> (headgear _unit) >> "grad_slingHelmet_allow")) exitWith {true;};
 
 //check wether unit's helemt is in list of allowed helmets
-_allowedHeadgear append (missionNamespace getVariable ["GRAD_slingHelmet_whitelist",[]]);
-if (!((headgear _unit) in _allowedHeadgear) && (isNull (configFile >> "CfgWeapons" >> (headgear _unit) >> "grad_slingHelmet_allow"))) exitWith {false;};
+if !((headgear _unit) in ([] call GRAD_slingHelmet_fnc_whitelist)) exitWith {false;};
 
 true;
