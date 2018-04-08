@@ -17,6 +17,11 @@
 
 params ["_unit", "_helmetClass"];
 
+//remove old helmet if unit has already a slung helmet
+if !(([_unit] call GRAD_slingHelmet_fnc_getSlungHelmet) isEqualTo "") then {
+    [_unit] call GRAD_slingHelmet_fnc_removeSlungHelmet;
+};
+
 //create weaponholder
 private _weaponHolder = createVehicle ["GRAD_slingHelmet_WeaponHolder", getPos _unit, [], 0, "CAN_COLLIDE"];
 _weaponHolder addItemCargoGlobal [_helmetClass, 1];
