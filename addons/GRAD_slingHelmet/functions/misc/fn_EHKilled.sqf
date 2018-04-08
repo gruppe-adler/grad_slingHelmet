@@ -18,7 +18,7 @@ private _helmet = [_unit] call GRAD_slingHelmet_fnc_getSlungHelmet;
 
 //spawns new weaponholder with helmet on players body
 private _holder = createVehicle ["WeaponHolderSimulated", (getPos _unit), [], 0, "CAN_COLLIDE"];
-_holder addItemCargo [_helmet, 1];
+_holder addItemCargoGlobal [_helmet, 1];
 
 //remove the helmet from the dead unit
 [_unit] call GRAD_slingHelmet_fnc_removeSlungHelmet;

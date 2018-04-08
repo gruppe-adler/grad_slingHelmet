@@ -19,7 +19,7 @@ params ["_unit", "_helmetClass"];
 
 //create weaponholder
 private _weaponHolder = createVehicle ["GRAD_slingHelmet_WeaponHolder", getPos _unit, [], 0, "CAN_COLLIDE"];
-_weaponHolder addItemCargo [_helmetClass, 1];
+_weaponHolder addItemCargoGlobal [_helmetClass, 1];
 
 //add EHs to unit
 private _getInID = _unit addEventHandler ["GetInMan",GRAD_slingHelmet_fnc_EHGetIn];
