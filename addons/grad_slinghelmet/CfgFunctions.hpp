@@ -5,7 +5,7 @@ class CfgFunctions
 		tag = "GRAD_slingHelmet";
 		class commands
 		{
-			file = "\GRAD_slingHelmet\functions\commands";
+			file = "\grad_slinghelmet\functions\commands";
 			class addHelmetToWhitelist {};
 			class addSlungHelmet {};
 			class canSlingHelmet {};
@@ -14,7 +14,7 @@ class CfgFunctions
 		}
 		class misc
 		{
-			file = "\GRAD_slingHelmet\functions\misc";
+			file = "\grad_slinghelmet\functions\misc";
 			class actionSling {};
 			class actionUnSling {};
 			class EHGetIn {};

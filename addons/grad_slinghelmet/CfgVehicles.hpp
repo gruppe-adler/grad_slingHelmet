@@ -7,7 +7,7 @@ class CfgVehicles
 		author = "DerZade [A]";
 		_generalMacro = "GRAD_slingHelmet_WeaponHolder";
 		scopeCurator = 0;
-		model = "GRAD_slingHelmet\model.p3d";
+		model = "grad_slinghelmet\model.p3d";
 		accuracy = 0.2;
 		mapSize = 1.39;
 		class TransportMagazines {};
