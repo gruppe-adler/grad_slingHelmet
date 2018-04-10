@@ -13,7 +13,7 @@
     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1354112941">
         <img src="https://img.shields.io/badge/Steam-Workshop-1B2838.svg?style=flat-square" alt="Steam Workshop">
     </a>
-    <a href="#">
+    <a href="https://forums.bohemia.net/forums/topic/215969-gruppe-adler-slinghelmet/">
         <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
     </a>
     <a href="https://github.com/DerZade/grad_slinghelmet/blob/master/LICENSE">
