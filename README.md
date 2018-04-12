@@ -50,7 +50,7 @@ Gruppe Adler SlingHelmet (GRAD_slingHelmet) is a mod for Arma 3, which adds the 
 - [RHS](http://www.rhsmods.org)
 
 Only viable Helmets are supported.  You can find a [full list of supported helmets here](https://github.com/DerZade/grad_slinghelmet/blob/master/addons/grad_slinghelmet/allowedHeadgear.hpp).  
-If you find any helmets which you think should be supported, feel free to open a pull request or contact us. Further information can be found [on the corresponding wiki page](https://github.com/DerZade/grad_slinghelmet/wiki/Adding-a-Headgear-to-the-Whitelist).
+If you find any helmets which you think should be supported **or want to add helmets from a completely different mod**, feel free to open a pull request or contact us. Further information can be found [on the corresponding wiki page](https://github.com/DerZade/grad_slinghelmet/wiki/Adding-a-Headgear-to-the-Whitelist).
 
 ## Dependencies:
 - [ACE3](http://www.ace3mod.com)
