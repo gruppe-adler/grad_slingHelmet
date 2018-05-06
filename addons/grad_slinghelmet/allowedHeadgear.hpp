@@ -451,6 +451,31 @@ private _allowedHeadgear = [
 	"UK3CB_BAF_H_Mk7_Scrim_F",
 	"UK3CB_BAF_H_Mk7_Scrim_ESS_A",
 	"UK3CB_BAF_H_Mk7_Scrim_ESS_B",
-	"UK3CB_BAF_H_Mk7_Scrim_ESS_C"
+	"UK3CB_BAF_H_Mk7_Scrim_ESS_C",
+	
+	//R3F
+	"R3F_casque_spectra_EOD",
+	"R3F_casque_spectra_EOD_DA",
+	"R3F_casque_equipage",
+	"R3F_casqueFS_olive",
+	"R3F_casqueFS_tan",
+	"R3F_casqueFS_noir",
+	"R3F_casqueFS_SNOW",
+	"R3F_casque_pilote",
+	"R3F_casque_spectra",
+	"R3F_casque_spectra_bleu",
+	"R3F_casque_spectra_jaune",
+	"R3F_casque_spectra_violet",
+	"R3F_casque_spectra_orange",
+	"R3F_casque_spectra_vert",
+	"R3F_casque_spectra_DA",
+	"R3F_casque_spectra_DA_bleu",
+	"R3F_casque_spectra_DA_jaune",
+	"R3F_casque_spectra_DA_violet",
+	"R3F_casque_spectra_DA_orange",
+	"R3F_casque_spectra_DA_vert",
+	"R3F_casque_spectra_SNOW",
+	
+
 
 ];
