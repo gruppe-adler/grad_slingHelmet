@@ -20,7 +20,7 @@
 [
   "GRAD_slingHelmet_allowAll",
   "CHECKBOX",
-  ["Allow all hedgear", "Allow all headgear to be slung."],
+  ["Allow any headgear", "Allow any headgear to be slung."],
   MODDISPLAYNAME,
   false,
   true
