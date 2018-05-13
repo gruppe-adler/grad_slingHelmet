@@ -21,6 +21,7 @@ class CfgFunctions
 			class EHGetOut {};
 			class EHHandleDisconnect {};
 			class EHKilled {};
+			class registerCBASettings {postInit = 1};
 			class weaponHolder {};
 			class whitelist {};
 		};

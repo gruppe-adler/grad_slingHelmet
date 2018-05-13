@@ -451,6 +451,51 @@ private _allowedHeadgear = [
 	"UK3CB_BAF_H_Mk7_Scrim_F",
 	"UK3CB_BAF_H_Mk7_Scrim_ESS_A",
 	"UK3CB_BAF_H_Mk7_Scrim_ESS_B",
-	"UK3CB_BAF_H_Mk7_Scrim_ESS_C"
+	"UK3CB_BAF_H_Mk7_Scrim_ESS_C",
+
+    //BW Mod
+	"BWA3_CrewmanKSK_Schwarz_Headset",
+	"BWA3_CrewmanKSK_Schwarz",
+	"BWA3_CrewmanKSK_Fleck_Headset",
+	"BWA3_CrewmanKSK_Fleck",
+	"BWA3_CrewmanKSK_Tropen_Headset",
+	"BWA3_CrewmanKSK_Tropen",
+	"BWA3_Knighthelm",
+	"BWA3_M92_Fleck",
+	"BWA3_M92_Tropen",
+	"BWA3_MICH_Fleck",
+	"BWA3_MICH_Tropen",
+	"BWA3_OpsCore_Schwarz_Camera",
+	"BWA3_OpsCore_Schwarz",
+	"BWA3_OpsCore_Fleck_Camera",
+	"BWA3_OpsCore_Fleck_Patch",
+	"BWA3_OpsCore_Fleck",
+	"BWA3_OpsCore_Tropen_Camera",
+	"BWA3_OpsCore_Tropen_Patch",
+	"BWA3_OpsCore_Tropen",
+  
+  	
+	//R3F
+	"R3F_casque_spectra_EOD",
+	"R3F_casque_spectra_EOD_DA",
+	"R3F_casque_equipage",
+	"R3F_casqueFS_olive",
+	"R3F_casqueFS_tan",
+	"R3F_casqueFS_noir",
+	"R3F_casqueFS_SNOW",
+	"R3F_casque_pilote",
+	"R3F_casque_spectra",
+	"R3F_casque_spectra_bleu",
+	"R3F_casque_spectra_jaune",
+	"R3F_casque_spectra_violet",
+	"R3F_casque_spectra_orange",
+	"R3F_casque_spectra_vert",
+	"R3F_casque_spectra_DA",
+	"R3F_casque_spectra_DA_bleu",
+	"R3F_casque_spectra_DA_jaune",
+	"R3F_casque_spectra_DA_violet",
+	"R3F_casque_spectra_DA_orange",
+	"R3F_casque_spectra_DA_vert",
+	"R3F_casque_spectra_SNOW"
 
 ];

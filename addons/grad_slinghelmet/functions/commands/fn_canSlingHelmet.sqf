@@ -22,6 +22,9 @@ if (headgear _unit isEqualTo '') exitWith {false;};
 //unit must not have a slung helmet already
 if !([_unit] call GRAD_slingHelmet_fnc_getSlungHelmet isEqualTo '') exitWith {false;};
 
+//check if all helmets are allowed via CBA setting
+if (missionNamespace getVariable ["GRAD_slingHelmet_allowAll", false]) exitWith {true;};
+
 //check ii uni's helmet is allowed by mod creator
 if !(isNull (configFile >> "CfgWeapons" >> (headgear _unit) >> "grad_slingHelmet_allow")) exitWith {true;};
 
