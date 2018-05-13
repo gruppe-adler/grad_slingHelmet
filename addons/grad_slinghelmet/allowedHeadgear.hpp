@@ -474,7 +474,7 @@ private _allowedHeadgear = [
 	"R3F_casque_spectra_DA_violet",
 	"R3F_casque_spectra_DA_orange",
 	"R3F_casque_spectra_DA_vert",
-	"R3F_casque_spectra_SNOW",
+	"R3F_casque_spectra_SNOW"
 	
 
 
