@@ -14,7 +14,7 @@
  * Public: No
  */
 
-#define MODDISPLAYNAME "GRAD_slingHelmet"
+#define MODDISPLAYNAME "GRAD slingHelmet"
 
 
 [
@@ -23,7 +23,7 @@
   ["Allow all hedgear", "Allow all headgear to be slung."],
   MODDISPLAYNAME,
   false,
-  true,
+  true
 ] call CBA_Settings_fnc_init;
 
 [
