@@ -48,6 +48,7 @@ Gruppe Adler SlingHelmet (GRAD_slingHelmet) is a mod for Arma 3, which adds the 
 - [ARC GER](https://forums.bohemia.net/forums/topic/157621-arc-nato-offensive-mods-units-vehicles/)
 - [Project Opfor](https://forums.bohemia.net/forums/topic/193185-project-opfor/)
 - [RHS](http://www.rhsmods.org)
+- [R3F](http://www.team-r3f.org/)
 - [BW Mod](http://www.bwmod.de/)
 
 Only viable Helmets are supported.  You can find a [full list of supported helmets here](https://github.com/DerZade/grad_slinghelmet/blob/master/addons/grad_slinghelmet/allowedHeadgear.hpp).  
