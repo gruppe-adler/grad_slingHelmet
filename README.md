@@ -57,9 +57,7 @@ If you find any helmets which you think should be supported **or want to add hel
 ## Dependencies:
 - [ACE3](http://www.ace3mod.com)
 ## License
-This project is licensed under **GPLv2**.  
-We kindly request to not upload this mod to Armaholic or other mirrors for Arma 3 mods.
-Plus, we ask you to not create mirrors in Steam Workshop. 
+This project is licensed under [**GRAD APLv1.0**](https://github.com/DerZade/grad_slinghelmet/blob/master/LICENSE).  
 
 ## Downloads
 #### GitHub 
