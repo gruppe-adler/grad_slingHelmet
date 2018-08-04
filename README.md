@@ -60,7 +60,7 @@ If you find any helmets which you think should be supported **or want to add hel
 ## Dependencies:
 - [ACE3](http://www.ace3mod.com)
 ## License
-This project is licensed under [**GRAD APLv1.0**](https://github.com/DerZade/grad_slinghelmet/blob/master/LICENSE).  
+This project is licensed under [**GRAD APLv1.1**](https://github.com/DerZade/grad_slinghelmet/blob/master/LICENSE).  
 
 ## Downloads
 #### GitHub 
