@@ -747,5 +747,13 @@ private _allowedHeadgear = [
   "H_LIB_US_Helmet_Med_w",
   "H_LIB_US_Helmet_Cap_w",
   "H_LIB_US_Helmet_First_lieutenant_w",
-  "H_LIB_US_Helmet_Second_lieutenant_w"
+  "H_LIB_US_Helmet_Second_lieutenant_w",
+
+  	
+	//SAM3 - Swedish Army Mod 3
+	"SAM_HelmetB_M90b",
+	"SAM_HelmetB_M90",
+	"SAM_HelmetB_M90K",
+	"SAM_HelmetIA_M90",
+	"SAM_HelmetIA_M90K"
 ];
