@@ -2,7 +2,7 @@ Copyright (C)  2018 Jonas "DerZade" Schade
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GRAD Arma Public License as published by
-Gruppe Adler; either version 1.0 of the License, or
+Gruppe Adler; either version 1.1 of the License, or
 (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
@@ -14,13 +14,13 @@ that be the case, everything in that folder and all subfolders is subject
 to that license instead.
 ________________________________________________________________________________
 
-Creators Notes
+Creator’s Notes
 
   None
 
 ________________________________________________________________________________
 ================================================================================
-                Gruppe Adler Arma Public License (GRAD APL) v1.0
+                Gruppe Adler Arma Public License (GRAD APL) v1.1
 ================================================================================
 
 Disclaimer
@@ -36,12 +36,13 @@ Intro
   - This is meant to foster creative collaboration, not ripping mods and
     getting credit for it.
   - The creator can waive/modify parts of this license in his creator’s notes.
-    Both this GRAD APL and the creators are complementary. When conflicting,
-    creator’s notes take precedence. He did the work, he calls the shots.
+    Both this GRAD APL and the creator’s notes are complementary. When 
+    conflicting, creator’s notes take precedence. He did the work, he calls the
+    shots.
   - Written consent is necessary to waive parts of this license or the entire
     license.
   - When terminology or conditions are open to interpretation, it is assumed
-    that the creators interpretation is the only one that matters. 
+    that the creator’s interpretation is the only one that matters. 
     Deal with it. B)
   - If certain aspects of this license become invalid, copyright law takes over
     in the areas the license becomes invalid. The other parts of this license
@@ -86,6 +87,6 @@ Footnotes
       hosters. If you host the mods on your private/clan server and use programs
       like Arma3Sync to make them available to a limited user base, this does
       not apply to you.
-  (2) The creators definition is meant. Use your common sense!
+  (2) The creator’s definition is meant. Use your common sense!
       If you are not sure, ask!
   (3) You must not just copy the pbos into your own mod. Include the whole mod!
