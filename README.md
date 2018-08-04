@@ -50,6 +50,9 @@ Gruppe Adler SlingHelmet (GRAD_slingHelmet) is a mod for Arma 3, which adds the 
 - [RHS](http://www.rhsmods.org)
 - [R3F](http://www.team-r3f.org/)
 - [BW Mod](http://www.bwmod.de/)
+- [IFA3](https://forums.bohemia.net/forums/topic/190809-iron-front-in-arm3-lite-preview-versions/)
+- [FoW WW2](https://forums.bohemia.net/forums/topic/198194-faces-of-war-ww2/)
+- [SAM3](https://forums.bohemia.net/forums/topic/145792-swedish-army-mod-3-sam/)
 
 Only viable Helmets are supported.  You can find a [full list of supported helmets here](https://github.com/DerZade/grad_slinghelmet/blob/master/addons/grad_slinghelmet/allowedHeadgear.hpp).  
 If you find any helmets which you think should be supported **or want to add helmets from a completely different mod**, feel free to open a pull request or contact us. Further information can be found [on the corresponding wiki page](https://github.com/DerZade/grad_slinghelmet/wiki/Adding-a-Headgear-to-the-Whitelist).
@@ -57,7 +60,7 @@ If you find any helmets which you think should be supported **or want to add hel
 ## Dependencies:
 - [ACE3](http://www.ace3mod.com)
 ## License
-This project is licensed under [**GRAD APLv1.0**](https://github.com/DerZade/grad_slinghelmet/blob/master/LICENSE).  
+This project is licensed under [**GRAD APLv1.1**](https://github.com/DerZade/grad_slinghelmet/blob/master/LICENSE).  
 
 ## Downloads
 #### GitHub 
