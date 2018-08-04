@@ -496,13 +496,6 @@ private _allowedHeadgear = [
 	"R3F_casque_spectra_DA_violet",
 	"R3F_casque_spectra_DA_orange",
 	"R3F_casque_spectra_DA_vert",
-	"R3F_casque_spectra_SNOW",
-	
-	
-	//SAM3 - Swedish Army Mod 3
-	"SAM_HelmetB_M90b",
-	"SAM_HelmetB_M90",
-	"SAM_HelmetB_M90K",
-	"SAM_HelmetIA_M90",
-	"SAM_HelmetIA_M90K"
+	"R3F_casque_spectra_SNOW"
+
 ];
