@@ -17,7 +17,7 @@
         <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
     </a>
     <a href="https://github.com/DerZade/grad_slinghelmet/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-GPLv2-red.svg?style=flat-square" alt="GRAD Trenches License">
+        <img src="https://img.shields.io/badge/License-GRAD_APLv1.1-red.svg?style=flat-square" alt="License">
     </a>
 <!--
     <a href="https://github.com/DerZade/grad_slinghelmet/wiki">
