@@ -1,0 +1,16 @@
+{
+    "name": "grad_slinghelmet",
+    "prefix": "grad_slinghelmet",
+    "author": "DerZade",
+    "files": [
+        "mod.cpp",
+        "logo_grad_slingHelmet_ca.paa",
+        "LICENSE",
+        "README.md"
+    ],
+    "keyname": "{{prefix}}-{{version}}",
+    "signame": "{{prefix}}-{{version}}",
+    "releasebuild": [
+        "@zip"
+    ]
+}
