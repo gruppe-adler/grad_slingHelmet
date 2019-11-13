@@ -16,6 +16,7 @@ class CfgFunctions
 		{
 			file = "\grad_slinghelmet\functions\misc";
 			class actionSling {};
+			class actionSwap {};
 			class actionUnSling {};
 			class EHGetIn {};
 			class EHGetOut {};

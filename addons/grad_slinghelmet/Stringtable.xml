@@ -8,11 +8,16 @@
 				<German>Helm absetzen</German>
 				<Japanese>ヘルメットをかける</Japanese>
 			</Key>
-               <Key ID="str_grad_slingHelmet_unsling">
+			<Key ID="str_grad_slingHelmet_unsling">
 				<Original>Unsling Helmet</Original>
 				<English>Unsling Helmet</English>
 				<German>Helm aufsetzen</German>
 				<Japanese>ヘルメットを被る</Japanese>
+			</Key>
+			<Key ID="str_grad_slingHelmet_swap">
+				<Original>Swap Headgear with slung Helmet</Original>
+				<English>Swap Headgear with slung Helmet</English>
+				<German>Abgesetzte Helm mit aufgesetzte Kopfbedeckung tauschen</German>
 			</Key>
 		</Container>
 	</Package>

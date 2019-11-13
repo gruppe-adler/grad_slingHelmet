@@ -1,0 +1,35 @@
+/*
+ * Author: Arend
+ * Swaps the slung helmet and the headgear item currently being worn,
+ * unless the headgear item cannot be slung, in which case it will be placed in
+ * the inventory.
+ *
+ * Arguments:
+ * 0: Unit <OBJECT>
+ *
+ * Return Value:
+ * Nothing
+ *
+ * Example:
+ * [player] call GRAD_slingHelmet_fnc_actionSwap;
+ *
+ * Public: No
+ */
+
+params ["_unit"];
+
+private _helmetClass = headgear _unit;
+removeHeadgear _unit;
+
+[_unit] call bnb_e_sling_mask_fnc_actionUnSling;
+
+// Restore the headgear somewhere, either by slinging, in inventory or on ground
+// Check if _helmetClass is a slingable item
+if (_helmetClass in ([] call bnb_e_sling_mask_fnc_whitelist)) then {
+
+	[_unit, _helmetClass] call GRAD_slingHelmet_fnc_addSlungHelmet;
+} else {
+	[_unit, _helmetClass, true] call CBA_fnc_addItem;
+};
+
+
