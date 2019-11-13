@@ -21,11 +21,11 @@ params ["_unit"];
 private _helmetClass = headgear _unit;
 removeHeadgear _unit;
 
-[_unit] call bnb_e_sling_mask_fnc_actionUnSling;
+[_unit] call GRAD_slingHelmet_fnc_actionUnsling;
 
 // Restore the headgear somewhere, either by slinging, in inventory or on ground
 // Check if _helmetClass is a slingable item
-if (_helmetClass in ([] call bnb_e_sling_mask_fnc_whitelist)) then {
+if (_helmetClass in ([] call GRAD_slingHelmet_fnc_whitelist)) then {
 
 	[_unit, _helmetClass] call GRAD_slingHelmet_fnc_addSlungHelmet;
 } else {
