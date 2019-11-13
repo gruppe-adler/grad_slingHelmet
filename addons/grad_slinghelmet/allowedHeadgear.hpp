@@ -804,5 +804,31 @@ private _allowedHeadgear = [
   "VSM_oga_OPS_2",
   "VSM_OGA_OD_OPS_2",
   "VSM_ProjectHonor_OPS_2",
-  "VSM_Tan_spray_OPS_2"
+  "VSM_Tan_spray_OPS_2",
+
+  // NORSOF_LITE_mas
+  "H_mas_nor_opscore",
+  "H_mas_nor_opscorn",
+  "H_mas_nor_opscore_gog",
+  "H_mas_nor_opscorn_gog",
+  "H_mas_nor_opscore_g",
+  "H_mas_nor_opscore_gog_g",
+  "H_mas_nor_opscore_b",
+  "H_mas_nor_opscore_gog_b",
+  "H_mas_nor_opscore_t",
+  "H_mas_nor_opscore_gog_t",
+  "H_mas_nor_opscore_aor1",
+  "H_mas_nor_opscore_gog_aor1",
+  "H_mas_nor_opscore_aor2",
+  "H_mas_nor_opscore_gog_aor2",
+  "H_mas_nor_opscore_w",
+  "H_mas_nor_opscore_gog_w",
+  "H_mas_nor_ach",
+  "H_mas_nor_ach_gog",
+  "H_mas_nor_ach_aor1",
+  "H_mas_nor_ach_gog_aor1",
+  "H_mas_nor_ach_aor2",
+  "H_mas_nor_ach_gog_aor2",
+  "H_mas_nor_ach_b",
+  "H_mas_nor_ach_gog_b"
 ];
