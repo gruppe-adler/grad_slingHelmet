@@ -53,6 +53,9 @@ Gruppe Adler SlingHelmet (GRAD_slingHelmet) is a mod for Arma 3, which adds the 
 - [IFA3](https://forums.bohemia.net/forums/topic/190809-iron-front-in-arm3-lite-preview-versions/)
 - [FoW WW2](https://forums.bohemia.net/forums/topic/198194-faces-of-war-ww2/)
 - [SAM3](https://forums.bohemia.net/forums/topic/145792-swedish-army-mod-3-sam/)
+- [Operation FrenchPoint](https://forums.bohemia.net/forums/topic/211924-wip-ofrp-operation-frenchpoint/) (partially)
+- VSM (partially)
+- [NORSOF_LITE_mas](https://steamcommunity.com/sharedfiles/filedetails/?id=1654680843) (partially)
 
 Only viable Helmets are supported by default, although this can be changed via CBA settings.  You can find a [full list of supported helmets here](https://github.com/DerZade/grad_slinghelmet/blob/master/addons/grad_slinghelmet/allowedHeadgear.hpp).  
 If you find any helmets which you think should be supported **or want to add helmets from a completely different mod**, feel free to open a pull request or contact us. Further information can be found [on the corresponding wiki page](https://github.com/DerZade/grad_slinghelmet/wiki/Adding-Headgear-to-the-Whitelist).
