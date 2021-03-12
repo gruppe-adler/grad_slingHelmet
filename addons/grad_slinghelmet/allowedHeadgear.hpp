@@ -831,4 +831,33 @@ private _allowedHeadgear = [
   "H_mas_nor_ach_gog_aor2",
   "H_mas_nor_ach_b",
   "H_mas_nor_ach_gog_b"
+  
+  // Operation FrenchPoint (OFrP)
+  "OFrP_Helmet_TC3000_cover_CE",
+  "OFrP_Helmet_TC3000_cover_DA",
+  "OFrP_Helmet_TC3000_cover_ESSCOVER_CE",
+  "OFrP_Helmet_TC3000_cover_ESSCOVER_DA",
+  "OFrP_Helmet_TC3000_OD",
+  "OFrP_Helmet_TC3000_ESSCOVER_OD",
+  "OFrP_Helmet_TC3000_TAN",
+  "OFrP_Helmet_TC3000_ESSCOVER_TAN",
+  "OFrP_Helmet_FELIN_CE",
+  "OFrP_Helmet_FELIN_ESSCOVER_CE",
+  "OFrP_Helmet_FELIN_TAN",
+  "OFrP_Helmet_FELIN_ESSCOVER_TAN",
+  "OFrP_Helmet_Spectra_OD",
+  "OFrP_Helmet_Spectra_ESSCOVER_OD",
+  "OFrP_Helmet_Spectra_UN",
+  "OFrP_Helmet_Spectra_01_CE",
+  "OFrP_Helmet_Spectra_01_ESSCOVER_CE",
+  "OFrP_Helmet_Spectra_02_CE",
+  "OFrP_Helmet_Spectra_02_ESSCOVER_CE",
+  "OFrP_Helmet_Spectra_01_DA",
+  "OFrP_Helmet_Spectra_01_ESSCOVER_DA",
+  "OFrP_Helmet_Spectra_02_DA",
+  "OFrP_Helmet_Spectra_02_ESSCOVER_DA",
+  "OFrP_Helmet_F1",
+  "OFrP_Helmet_F1_cover_CE",
+  "OFrP_Helmet_F1_cover_DA"
+
 ];
