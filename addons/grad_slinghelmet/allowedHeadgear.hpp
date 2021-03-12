@@ -830,7 +830,7 @@ private _allowedHeadgear = [
   "H_mas_nor_ach_aor2",
   "H_mas_nor_ach_gog_aor2",
   "H_mas_nor_ach_b",
-  "H_mas_nor_ach_gog_b"
+  "H_mas_nor_ach_gog_b",
   
   // Operation FrenchPoint (OFrP)
   "OFrP_Helmet_TC3000_cover_CE",
