@@ -46,6 +46,7 @@ Gruppe Adler SlingHelmet (GRAD_slingHelmet) is a mod for Arma 3, which adds the 
 - [Global Mobilization](http://www.global-mobilization.com/)
 - [SOG Prairie Fire](https://www.sogpf.com/)
 - [3CB BAF Equipment](https://3cbmod.wordpress.com/released-mods/3cb-baf-equipment/)
+- [3CB Factions](https://3cbmod.wordpress.com/released-mods/3cb-factions/)
 - [SMA](http://smaproject.com/) (partially)
 - [ARC GER](https://forums.bohemia.net/forums/topic/157621-arc-nato-offensive-mods-units-vehicles/)
 - [Project Opfor](https://forums.bohemia.net/forums/topic/193185-project-opfor/)
