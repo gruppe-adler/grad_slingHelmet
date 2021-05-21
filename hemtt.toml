@@ -1,0 +1,20 @@
+name = "grad_slingHelmet"
+modname = "grad_slingHelmet"
+prefix = "grad_slingHelmet"
+author = "Gruppe Adler"
+files = [
+    "mod.cpp",
+    "logo_grad_slingHelmet_ca.paa",
+    "LICENSE",
+    "README.md"
+]
+
+key_name = "{{prefix}}-{{version}}"
+sig_name = "{{prefix}}-{{version}}"
+
+releasebuild = [
+    "@zip"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"

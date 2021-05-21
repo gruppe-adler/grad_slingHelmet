@@ -5,16 +5,16 @@ class CfgFunctions
 		tag = "GRAD_slingHelmet";
 		class commands
 		{
-			file = "\grad_slinghelmet\functions\commands";
+			file = "x\grad_slinghelmet\addons\main\functions\commands";
 			class addHelmetToWhitelist {};
 			class addSlungHelmet {};
 			class canSlingHelmet {};
 			class getSlungHelmet {};
 			class removeSlungHelmet {};
-		}
+		};
 		class misc
 		{
-			file = "\grad_slinghelmet\functions\misc";
+			file = "x\grad_slinghelmet\addons\main\functions\misc";
 			class actionSling {};
 			class actionUnSling {};
 			class EHGetIn {};

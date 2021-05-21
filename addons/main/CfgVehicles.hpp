@@ -7,7 +7,7 @@ class CfgVehicles
 		author = "DerZade [A]";
 		_generalMacro = "GRAD_slingHelmet_WeaponHolder";
 		scopeCurator = 0;
-		model = "grad_slinghelmet\model.p3d";
+		model = "x\grad_slinghelmet\addons\main\model.p3d";
 		accuracy = 0.2;
 		mapSize = 1.39;
 		class TransportMagazines {};
@@ -15,8 +15,8 @@ class CfgVehicles
 		memoryPointSupply = "";
 		supplyRadius = 0;
 		showWeaponCargo = 1;
-		transportMaxMagazines = 1e+009;
-		transportMaxWeapons = 1e+009;
+		transportMaxMagazines = "1e+009";
+		transportMaxWeapons = "1e+009";
 		displayName = "GRAD Sling Helmet WH";
 		destrType = "DestructNo";
 		transportMaxBackpacks = 0;
