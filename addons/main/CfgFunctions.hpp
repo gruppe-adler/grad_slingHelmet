@@ -16,6 +16,7 @@ class CfgFunctions
 		{
 			file = "x\grad_slinghelmet\addons\main\functions\misc";
 			class actionSling {};
+			class actionSwap {};
 			class actionUnSling {};
 			class EHGetIn {};
 			class EHGetOut {};
@@ -24,6 +25,7 @@ class CfgFunctions
 			class registerCBASettings {postInit = 1};
 			class weaponHolder {};
 			class whitelist {};
+			class isWhitelisted {};
 		};
 	};
 };

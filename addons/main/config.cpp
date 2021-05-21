@@ -6,8 +6,8 @@ class CfgPatches
 	{
 		units[] = {"GRAD_slingHelmet_WeaponHolder"};
 		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Weapons_F","ace_common","ace_main","cba_settings"};
+		requiredVersion = 2.0;
+		requiredAddons[] = {"A3_Weapons_F","ace_common","ace_main","cba_settings","cba_common"};
 		author = "DerZade";
 		VERSION_CONFIG;
 	};
