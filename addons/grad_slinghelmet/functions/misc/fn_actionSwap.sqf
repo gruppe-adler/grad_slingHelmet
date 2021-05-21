@@ -1,8 +1,6 @@
 /*
- * Author: Arend
- * Swaps the slung helmet and the headgear item currently being worn,
- * unless the headgear item cannot be slung, in which case it will be placed in
- * the inventory.
+ * Author: Arend, DerZade
+ * Swaps the slung helmet and the headgear item currently being worn.
  *
  * Arguments:
  * 0: Unit <OBJECT>
@@ -23,13 +21,5 @@ removeHeadgear _unit;
 
 [_unit] call GRAD_slingHelmet_fnc_actionUnsling;
 
-// Restore the headgear somewhere, either by slinging, in inventory or on ground
-// Check if _helmetClass is a slingable item
-if (_helmetClass in ([] call GRAD_slingHelmet_fnc_whitelist)) then {
-
-	[_unit, _helmetClass] call GRAD_slingHelmet_fnc_addSlungHelmet;
-} else {
-	[_unit, _helmetClass, true] call CBA_fnc_addItem;
-};
-
-
+// Restore the headgear as slung helmet
+[_unit, _helmetClass] call GRAD_slingHelmet_fnc_addSlungHelmet;

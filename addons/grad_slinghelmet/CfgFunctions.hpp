@@ -25,6 +25,7 @@ class CfgFunctions
 			class registerCBASettings {postInit = 1};
 			class weaponHolder {};
 			class whitelist {};
+			class isWhitelisted {};
 		};
 	};
 };
