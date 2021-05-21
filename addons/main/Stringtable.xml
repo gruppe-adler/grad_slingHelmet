@@ -7,12 +7,16 @@
 				<English>Sling Helmet</English>
 				<German>Helm absetzen</German>
 				<Japanese>ヘルメットをかける</Japanese>
+				<Spanish>Colgar casco</Spanish>
+				<Turkish>Kaskını Beline As</Turkish>
 			</Key>
                <Key ID="str_grad_slingHelmet_unsling">
 				<Original>Unsling Helmet</Original>
 				<English>Unsling Helmet</English>
 				<German>Helm aufsetzen</German>
 				<Japanese>ヘルメットを被る</Japanese>
+				<Spanish>Descolgar casco</Spanish>
+				<Turkish>Kaskını Geri Tak</Turkish>
 			</Key>
 		</Container>
 	</Package>
