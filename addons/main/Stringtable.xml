@@ -19,9 +19,9 @@
 				<Turkish>Kaskını Geri Tak</Turkish>
 			</Key>
 			<Key ID="str_grad_slingHelmet_swap">
-				<Original>Swap Headgear with slung Helmet</Original>
-				<English>Swap Headgear with slung Helmet</English>
-				<German>Abgesetzte Helm mit aufgesetzte Kopfbedeckung tauschen</German>
+				<Original>Swap Helmets</Original>
+				<English>Swap Helmets</English>
+				<German>Helme tauschen</German>
 			</Key>
 			<Key ID="str_grad_slingHelmet_moved_to_inventory">
 				<Original>Moved headgear to inventory</Original>
