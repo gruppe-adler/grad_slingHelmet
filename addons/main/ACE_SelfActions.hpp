@@ -11,7 +11,7 @@ class GRAD_slingHelmet_sling
 class GRAD_slingHelmet_unsling : GRAD_slingHelmet_sling
 {
     displayName = "$STR_grad_slingHelmet_unsling";
-    condition = "(headgear _player isEqualTo '') && !([_player] call GRAD_slingHelmet_fnc_getSlungHelmet isEqualTo '')";
+    condition = "([_player] call GRAD_slingHelmet_fnc_getSlungHelmet isNotEqualTo '') && (headgear _player isEqualTo '' || [_player, headgear _player] call CBA_fnc_canAddItem)";
     statement = "[_player] call GRAD_slingHelmet_fnc_actionUnsling";
 };
 class GRAD_slingHelmet_swap : GRAD_slingHelmet_sling
