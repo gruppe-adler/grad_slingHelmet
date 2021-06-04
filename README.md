@@ -60,7 +60,7 @@ Gruppe Adler SlingHelmet (GRAD_slingHelmet) is a mod for Arma 3, which adds the 
 - VSM (partially)
 - [NORSOF_LITE_mas](https://steamcommunity.com/sharedfiles/filedetails/?id=1654680843) (partially)
 
-Only viable Helmets are supported by default, although this can be changed via CBA settings.  You can find a [full list of supported helmets here](https://github.com/DerZade/grad_slinghelmet/blob/master/addons/grad_slinghelmet/allowedHeadgear.hpp).  
+Only viable Helmets are supported by default, although this can be changed via CBA settings.  You can find a [full list of supported helmets here](https://github.com/gruppe-adler/grad_slingHelmet/blob/master/addons/main/allowedHeadgear.hpp).  
 If you find any helmets which you think should be supported **or want to add helmets from a completely different mod**, feel free to open a pull request or contact us. Further information can be found [on the corresponding wiki page](https://github.com/DerZade/grad_slinghelmet/wiki/Adding-Headgear-to-the-Whitelist).
 
 ## Dependencies:
