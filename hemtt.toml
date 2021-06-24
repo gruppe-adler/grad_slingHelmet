@@ -10,7 +10,7 @@ files = [
 ]
 
 key_name = "{{prefix}}-{{version}}"
-sig_name = "{{prefix}}-{{version}}"
+authority = "{{prefix}}-{{version}}"
 
 releasebuild = [
     "@zip"

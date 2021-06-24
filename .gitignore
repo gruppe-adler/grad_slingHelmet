@@ -1,1 +1,4 @@
-releases/
+releases/*
+*.biprivatekey
+keys/*
+.hemtt/local
