@@ -47,6 +47,7 @@ Gruppe Adler SlingHelmet (GRAD_slingHelmet) is a mod for Arma 3, which adds the 
 - [Vanilla](https://arma3.com/)
 - [Global Mobilization](http://www.global-mobilization.com/)
 - [SOG Prairie Fire](https://www.sogpf.com/)
+- [CSLA Iron Curtain](https://store.steampowered.com/app/1294440/Arma_3_Creator_DLC_CSLA_Iron_Curtain/)
 - [3CB BAF Equipment](https://3cbmod.wordpress.com/released-mods/3cb-baf-equipment/)
 - [3CB Factions](https://3cbmod.wordpress.com/released-mods/3cb-factions/)
 - [SMA](http://smaproject.com/) (partially)
