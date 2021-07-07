@@ -15,7 +15,7 @@
  *
  * Public: No
  */
-params ["_unit","_position","_veh"];
+params ["_unit","","_veh"];
 
 if (isNil "_unit" or isNil "_veh") exitWith {["No proper argument(s) given."] call BIS_fnc_error};
 

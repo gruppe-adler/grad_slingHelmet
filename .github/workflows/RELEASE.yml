@@ -1,0 +1,41 @@
+name: 'RELEASE'
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  upload-to-gh:
+    name: Upload to GitHub release
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Build with HEMTT
+      uses: gruppe-adler/action-release-with-hemtt@2.2.0
+      id: build
+    - name: Upload asset
+      uses: shogo82148/actions-upload-release-asset@v1
+      with: 
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ${{ steps.build.outputs.zip_path }}
+        asset_content_type: application/zip
+  upload-to-steam:
+    name: Upload to Steam Workshop
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Build with HEMTT
+      uses: gruppe-adler/action-release-with-hemtt@2.2.0
+      id: build
+    - name: Upload mod
+      uses: gruppe-adler/action-release-to-steam-ws@v1-beta
+      with:
+        file_id: '1354112941'
+        username: "${{ secrets.STEAM_USERNAME }}"
+        password: "${{ secrets.STEAM_PASSWORD }}"
+        path: "${{ steps.build.outputs.release_path }}/@${{ steps.build.outputs.mod_name }}"
+        name: "${{ steps.build.outputs.mod_name }}"
+        change_notes_title: "${{ github.event.release.name }}"
+        change_notes: "${{ github.event.release.body }}"

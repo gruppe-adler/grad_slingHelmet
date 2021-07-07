@@ -1099,3 +1099,5 @@ private _allowedHeadgear = [
   "OFrP_Helmet_F1_cover_DA"
 
 ];
+
+#define WHITELIST_DEFAULT _allowedHeadgear 

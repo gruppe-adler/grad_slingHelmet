@@ -1,3 +1,4 @@
+#include "..\..\allowedHeadgear.hpp"
 /*
  * Author: DerZade
  * Returns all whitelisted helmets.
@@ -14,11 +15,9 @@
  * Public: No
  */
 
-#include "..\..\allowedHeadgear.hpp"
-
 if (isNil "GRAD_slingHelmet_whitelist") then {
     //var has to be initialized
-    GRAD_slingHelmet_whitelist = _allowedHeadgear;
+    GRAD_slingHelmet_whitelist = WHITELIST_DEFAULT;
     publicVariable "GRAD_slingHelmet_whitelist";
 };
 
