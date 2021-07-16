@@ -33,7 +33,7 @@
         </strong></sup>
 </p>
 
-Gruppe Adler SlingHelmet (GRAD_slingHelmet) is a mod for Arma 3, which adds the functionality of slinging your helmet onto your belt to make space for other (decorative) headwear on your head.
+Gruppe Adler Sling Helmet is a mod for Arma 3, which adds the functionality of slinging your helmet onto your belt to make space for other (decorative) headwear on your head.
 
 ## Features
 - Sling your helmet to your belt.
