@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="grad_slingHelmet">
 	<Package name="Mission One">
 		<Container name="Misc">
@@ -22,11 +22,13 @@
 				<Original>Swap Helmets</Original>
 				<English>Swap Helmets</English>
 				<German>Helme tauschen</German>
+				<Spanish>Intercambiar cascos</Spanish>
 			</Key>
 			<Key ID="str_grad_slingHelmet_moved_to_inventory">
 				<Original>Moved headgear to inventory</Original>
 				<English>Moved headgear to inventory</English>
 				<German>Kopfbedeckung ins Inventar gelegt</German>
+				<Spanish>Equipamiento de cabeza movido al inventario</Spanish>
 			</Key>
 		</Container>
 	</Package>
