@@ -16,7 +16,7 @@
  */
 
 if (isNil "GRAD_slingHelmet_whitelist") then {
-    //var has to be initialized
+    // var has to be initialized
     GRAD_slingHelmet_whitelist = WHITELIST_DEFAULT;
     publicVariable "GRAD_slingHelmet_whitelist";
 };

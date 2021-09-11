@@ -21,7 +21,7 @@ params ["_unit"];
 private _slungHelmetClass = [_unit] call GRAD_slingHelmet_fnc_getSlungHelmet;
 private _currentHelmetClass = headgear _unit;
 
-//can't unsling a non existent helmet
+// can't unsling a non existent helmet
 if (_slungHelmetClass isEqualTo "") exitWith {};
 
 if (_currentHelmetClass isNotEqualTo "") then {

@@ -15,10 +15,10 @@
  */
 params ["_unit"];
 
-private _var = _unit getVariable ["GRAD_slingHelmet_variable",nil];
+private _var = _unit getVariable ["GRAD_slingHelmet_variable", nil];
 
-//return ""
-if (isNil "_var") exitWith {""};
+// return objNull
+if (isNil "_var") exitWith {objNull};
 
-//return weaponholder
+// return weaponholder
 (_var select 1)

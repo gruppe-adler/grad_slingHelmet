@@ -16,10 +16,10 @@
 
 params ["_unit"];
 
-//unit has to have headgear
+// unit has to have headgear
 if (headgear _unit isEqualTo '') exitWith {false;};
 
-//unit must not have a slung helmet already
+// unit must not have a slung helmet already
 if !([_unit] call GRAD_slingHelmet_fnc_getSlungHelmet isEqualTo '') exitWith {false;};
 
 [headgear _unit] call GRAD_slingHelmet_fnc_isWhitelisted;

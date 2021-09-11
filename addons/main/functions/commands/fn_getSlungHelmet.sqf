@@ -17,8 +17,8 @@ params ["_unit"];
 
 private _var = _unit getVariable ["GRAD_slingHelmet_variable",nil];
 
-//no slung helmet; return ""
+// no slung helmet; return ""
 if (isNil "_var") exitWith {""};
 
-//return classname
+// return classname
 (_var select 0)

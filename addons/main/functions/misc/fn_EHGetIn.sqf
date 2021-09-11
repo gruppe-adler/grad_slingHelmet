@@ -21,7 +21,7 @@ if (isNil "_unit" or isNil "_veh") exitWith {["No proper argument(s) given."] ca
 
 private _wh = [_unit] call GRAD_slingHelmet_fnc_weaponHolder;
 
-//detach and hide the weaponholder (slung helmet)
+// detach and hide the weaponholder (slung helmet)
 _wh remoteExec ["detach", 0];
 _wh remoteExec ["hideObjectGlobal", 0];
 [_wh, [-10000,-10000,-100]] remoteExec ["setPos", 0];

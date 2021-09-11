@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="grad_slingHelmet">
-	<Package name="Mission One">
-		<Container name="Misc">
-			<Key ID="str_grad_slingHelmet_sling">
-				<Original>Sling Helmet</Original>
-				<English>Sling Helmet</English>
-				<German>Helm absetzen</German>
-				<Japanese>ヘルメットをかける</Japanese>
-				<Spanish>Colgar casco</Spanish>
-				<Turkish>Kaskını Beline As</Turkish>
-			</Key>
-			<Key ID="str_grad_slingHelmet_unsling">
-				<Original>Unsling Helmet</Original>
-				<English>Unsling Helmet</English>
-				<German>Helm aufsetzen</German>
-				<Japanese>ヘルメットを被る</Japanese>
-				<Spanish>Descolgar casco</Spanish>
-				<Turkish>Kaskını Geri Tak</Turkish>
-			</Key>
-			<Key ID="str_grad_slingHelmet_swap">
-				<Original>Swap Helmets</Original>
-				<English>Swap Helmets</English>
-				<German>Helme tauschen</German>
-			</Key>
-			<Key ID="str_grad_slingHelmet_moved_to_inventory">
-				<Original>Moved headgear to inventory</Original>
-				<English>Moved headgear to inventory</English>
-				<German>Kopfbedeckung ins Inventar gelegt</German>
-			</Key>
-		</Container>
-	</Package>
+    <Package name="grad_slingHelmet">
+        <Container name="misc">
+            <Key ID="str_grad_slingHelmet_sling">
+                <Original>Sling Helmet</Original>
+                <English>Sling Helmet</English>
+                <German>Helm absetzen</German>
+                <Japanese>ヘルメットをかける</Japanese>
+                <Spanish>Colgar casco</Spanish>
+                <Turkish>Kaskını Beline As</Turkish>
+            </Key>
+            <Key ID="str_grad_slingHelmet_unsling">
+                <Original>Unsling Helmet</Original>
+                <English>Unsling Helmet</English>
+                <German>Helm aufsetzen</German>
+                <Japanese>ヘルメットを被る</Japanese>
+                <Spanish>Descolgar casco</Spanish>
+                <Turkish>Kaskını Geri Tak</Turkish>
+            </Key>
+            <Key ID="str_grad_slingHelmet_swap">
+                <Original>Swap Helmets</Original>
+                <English>Swap Helmets</English>
+                <German>Helme tauschen</German>
+            </Key>
+            <Key ID="str_grad_slingHelmet_moved_to_inventory">
+                <Original>Moved headgear to inventory</Original>
+                <English>Moved headgear to inventory</English>
+                <German>Kopfbedeckung ins Inventar gelegt</German>
+            </Key>
+        </Container>
+    </Package>
 </Project>

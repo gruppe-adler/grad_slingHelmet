@@ -21,15 +21,14 @@ private _weaponHolder = [_unit] call GRAD_slingHelmet_fnc_weaponHolder;
 
 if (_class isEqualTo "") exitWith {};
 
-//delete weaponholder and therefore the attched helmet
+// delete weaponholder and therefore the attched helmet
 deleteVehicle _weaponHolder;
 
-//remove EHs
+// remove EHs
 ((_unit getVariable "GRAD_slingHelmet_variable") select 2) params ["_getInID","_getOutID","_killedID"];
 _unit removeEventHandler ["GetInMan",_getInID];
 _unit removeEventHandler ["GetOutMan",_getOutID];
 _unit removeEventHandler ["Killed",_killedID];
 
-
-//update unit's variable
+// update unit's variable
 _unit setVariable ["GRAD_slingHelmet_variable",nil, true];

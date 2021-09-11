@@ -23,15 +23,15 @@
 if (isNil "_this") exitWith {};
 if (_this isEqualTo []) exitWith {};
 
-//execute on server to make sure that only one client (server) is writing to array at the same time
+// execute on server to make sure that only one client (server) is writing to array at the same time
 if (! isServer) exitWith {
     _this remoteExecCall ["GRAD_slingHelmet_fnc_addHelmetToWhitelist", 2];
 };
 
-//init variable if isn't yet
+// init variable if isn't yet
 [] call GRAD_slingHelmet_fnc_whitelist;
 
-//add classnames
+// add classnames
 {
     GRAD_slingHelmet_whitelist pushBackUnique _x;
 } forEach _this;
