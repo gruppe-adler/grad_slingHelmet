@@ -4,7 +4,10 @@ prefix = "grad_slingHelmet"
 author = "Gruppe Adler"
 files = [
     "mod.cpp",
-    "logo_grad_slingHelmet_ca.paa",
+    "logo_ca.paa",
+    "logo_active_ca.paa",
+    "logo_small_ca.paa",
+    "overview_co.paa",
     "LICENSE",
     "README.md"
 ]
