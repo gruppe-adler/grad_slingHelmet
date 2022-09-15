@@ -24,13 +24,13 @@ class CfgVehicles
 		icon = "iconObject_1x1";
 	};
 
-    class Man;
-    class CAManBase: Man
-    {
-        class ACE_SelfActions
-        {
+	class Man;
+	class CAManBase: Man
+	{
+		class ACE_SelfActions
+		{
 			class ACE_Equipment {
-                #include "ACE_SelfActions.hpp"
+				#include "ACE_SelfActions.hpp"
 			};
 		};
 	};
