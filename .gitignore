@@ -2,3 +2,4 @@ releases/*
 *.biprivatekey
 keys/*
 .hemtt/local
+hemtt.exe

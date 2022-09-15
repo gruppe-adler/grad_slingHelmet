@@ -38,3 +38,21 @@
     (call compile format ["[%1]", _this]) call GRAD_slingHelmet_fnc_addHelmetToWhitelist;
   }
 ] call CBA_Settings_fnc_init;
+
+["CBA_loadoutSet", {
+    params ["_unit", "_loadout", "_extradata"];
+    private _helmetClass = _extradata getOrDefault ["grad_slingHelmet", ""];
+    if (_helmetClass != "") then {
+        [_unit, _helmetClass] call GRAD_slingHelmet_fnc_addSlungHelmet;
+    } else {
+        [_unit] call GRAD_slingHelmet_fnc_removeSlungHelmet;
+    };
+}] call CBA_fnc_addEventHandler;
+
+["CBA_loadoutGet", {
+    params ["_unit", "_loadout", "_extradata"];
+    private _helmetClass = [_unit] call GRAD_slingHelmet_fnc_getSlungHelmet;
+    if (_helmetClass != "") then {
+        _extradata set ["grad_slingHelmet", _helmetClass];
+    };
+}] call CBA_fnc_addEventHandler;
