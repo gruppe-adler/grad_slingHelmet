@@ -42,7 +42,7 @@
 ["CBA_loadoutSet", {
     params ["_unit", "_loadout", "_extradata"];
     private _helmetClass = _extradata getOrDefault ["grad_slingHelmet", ""];
-    if (_helmetClass != "") then {
+    if (_helmetClass isNotEqualTo "") then {
         [_unit, _helmetClass] call GRAD_slingHelmet_fnc_addSlungHelmet;
     } else {
         [_unit] call GRAD_slingHelmet_fnc_removeSlungHelmet;
@@ -52,7 +52,7 @@
 ["CBA_loadoutGet", {
     params ["_unit", "_loadout", "_extradata"];
     private _helmetClass = [_unit] call GRAD_slingHelmet_fnc_getSlungHelmet;
-    if (_helmetClass != "") then {
+    if (_helmetClass isNotEqualTo "") then {
         _extradata set ["grad_slingHelmet", _helmetClass];
     };
 }] call CBA_fnc_addEventHandler;
