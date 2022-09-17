@@ -12,8 +12,6 @@ private _partial = count _allHelmets > count _resultsMap;
 private _helmetStrs = [];
 
 {
-	private _helmet = _x;
-	
 	if (!_y) then {continue};
 
 	private _displayName = [(configFile >> "CfgWeapons" >> _x), "displayName", ""] call BIS_fnc_returnConfigEntry;

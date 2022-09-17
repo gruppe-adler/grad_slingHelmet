@@ -42,7 +42,7 @@ _listBox ctrlAddEventHandler ["LBSelChanged", {
 }];
 
 _display displayAddEventHandler ["Unload", {
-    params ["_display", "_exitCode"];
+    params ["_display"];
 
     private _modID = _display getVariable ["grad_slingHelmet_helPAss_modID", ""];
     private _allHelmets = _display getVariable ["grad_slingHelmet_helPAss_allHelmets", []];
@@ -68,7 +68,7 @@ _display displayAddEventHandler ["Unload", {
             _display setVariable ["grad_slingHelmet_helPAss_params", _this];
 
             _display displayAddEventHandler ["Unload", {
-                params ["_display", "_exitCode"];
+                params ["_display"];
                 (_display getVariable "grad_slingHelmet_helPAss_params") params ["_modID", "_resultsMap"];
 
                 if (_display getVariable ["grad_slingHelmet_helPAss_exit", false]) exitWith {
@@ -125,7 +125,6 @@ if (isNil "grad_slingHelmet_helPAss_campos") then {
 
 (_display displayCtrl IDC_MOUSE_HANLDER) ctrlAddEventHandler ["MouseZChanged", {
     params ["_ctrl"];
-    private _target = (ctrlParent _ctrl) getvariable ["grad_slingHelmet_helPAss_target", player];
     
     private _disMax = 7;
     private _dis = grad_slingHelmet_helPAss_campos select 0;
@@ -151,8 +150,6 @@ if (isNil "grad_slingHelmet_helPAss_campos") then {
 (_display displayCtrl IDC_MOUSE_HANLDER) ctrlAddEventHandler ["MouseMoving", {
     params ["_ctrl","_xPos","_yPos"];
 
-    private _display = ctrlParent _ctrl;
-
     private _btns = _ctrl getVariable ["grad_slingHelmet_helPAss_mouseButtons", [false, false]];
     private _oldPos = _ctrl getVariable ["grad_slingHelmet_helPAss_mousePos", getMousePosition];
 
@@ -160,7 +157,7 @@ if (isNil "grad_slingHelmet_helPAss_campos") then {
     private _offsetY = (_oldPos # 1) - _yPos;
 
     _ctrl setVariable ["grad_slingHelmet_helPAss_mousePos", [_xPos, _yPos]];
-    grad_slingHelmet_helPAss_campos  params ["_dis", "_dirH", "_dirV", "_targetPos"];
+    grad_slingHelmet_helPAss_campos  params ["", "_dirH", "_dirV", "_targetPos"];
 
     if (_btns # 0) then {
 		boundingboxreal player params ["_minBox", "_maxBox"];
