@@ -1,6 +1,6 @@
 name = "grad_slingHelmet"
 modname = "grad_slingHelmet"
-prefix = "grad_slingHelmet"
+prefix = "grad_slinghelmet"
 author = "Gruppe Adler"
 files = [
     "mod.cpp",
