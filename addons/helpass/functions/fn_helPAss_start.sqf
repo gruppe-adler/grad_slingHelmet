@@ -68,7 +68,7 @@ _display displayAddEventHandler ["Unload", {
             _display setVariable ["grad_slingHelmet_helPAss_params", _this];
 
             _display displayAddEventHandler ["Unload", {
-                params ["_display"];
+                params ["_display", ""];
                 (_display getVariable "grad_slingHelmet_helPAss_params") params ["_modID", "_resultsMap"];
 
                 if (_display getVariable ["grad_slingHelmet_helPAss_exit", false]) exitWith {
@@ -110,7 +110,7 @@ if (isNil "grad_slingHelmet_helPAss_campos") then {
     "grad_slingHelmet_helPAss_updateCam",
     "onEachFrame",
     {
-        params ["_display", "_camera", "_target", "_center"];
+        params ["", "_camera", "_target", "_center"];
 
         grad_slingHelmet_helPAss_campos params ["_dis", "_dirH", "_dirV", "_targetPos"];
 
