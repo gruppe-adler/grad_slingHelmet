@@ -15,3 +15,9 @@ class CfgPatches
 
 #include "CfgVehicles.hpp"
 #include "CfgFunctions.hpp"
+
+class Extended_PreInit_EventHandlers {
+    class grad_slingHelmet_main {
+        init = "[] call GRAD_slingHelmet_fnc_registerCBASettings";
+    };
+};
